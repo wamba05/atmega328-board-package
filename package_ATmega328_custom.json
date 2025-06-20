@@ -1,0 +1,28 @@
+{
+  "packages": [
+    {
+      "name": "atmega328_custom",
+      "maintainer": "TonNom",
+      "websiteURL": "https://ton-site.com",
+      "email": "contact@ton-site.com",
+      "platforms": [
+        {
+          "name": "ATmega328 Breadboard",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://ton-site.com/download/atmega328-breadboard-platform.tar.bz2",
+          "archiveFileName": "atmega328-breadboard-platform.tar.bz2",
+          "checksum": "SHA-256:abc123...",
+          "size": "12345",
+          "boards": [
+            { "name": "ATmega328 on Breadboard (8 MHz internal)" },
+            { "name": "ATmega328 on Breadboard (16 MHz external)" }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
